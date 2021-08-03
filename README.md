@@ -1,10 +1,11 @@
 # in-learning.typescript-avanzado
-https://www.linkedin.com/learning/typescript-avanzado
+<https://www.linkedin.com/learning/typescript-avanzado>
 
-## Tools
+## Setup
 
-* https://createapp.dev/
+* Generate `webpack.config.js`, `tsconfig.json` and scripts for `package.json` with <https://createapp.dev/>
 
+* Installing webpack with
 
 ```bash
 npm install webpack webpack-cli --save-dev
