@@ -1,0 +1,30 @@
+{
+  "name": "typescript-avanzado",
+  "version": "1.0.0",
+  "description": "https://www.linkedin.com/learning/typescript-avanzado",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "build-dev": "webpack --mode development",
+    "build-prod": "webpack --mode production",
+    "build": "webpack",
+    "dev": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlcampana/in-learning.typescript-avanzado.git"
+  },
+  "author": "Jose Luis Campaña",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlcampana/in-learning.typescript-avanzado/issues"
+  },
+  "homepage": "https://github.com/jlcampana/in-learning.typescript-avanzado#readme",
+  "devDependencies": {
+    "ts-loader": "^9.2.4",
+    "typescript": "^4.3.5",
+    "webpack": "^5.48.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
