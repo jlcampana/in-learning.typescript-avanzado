@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "https://www.linkedin.com/learning/typescript-avanzado",
   "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "start": "node .",
-    "watch": "tsc -w",
+    "watch": "npm run clear;tsc -w",
+    "prepublish": "npm run build",
     "build": "tsc",
     "test": "jest --passWithNoTests",
     "clear": "rm -fr ./dist"

@@ -1,9 +1,12 @@
 # in-learning.typescript-avanzado
-<https://www.linkedin.com/learning/typescript-avanzado>
+
+Course: <https://www.linkedin.com/learning/typescript-avanzado>
+
+* <https://www.typescriptlang.org/dt/>
+* <https://createapp.dev/>
 
 ## Setup
 
-* Generate `tsconfig.json` and scripts for `package.json` with <https://createapp.dev/>
 
 * Installing recommended tsconfig
 
