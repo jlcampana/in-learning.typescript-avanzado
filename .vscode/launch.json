@@ -14,7 +14,8 @@
       "program": "${workspaceFolder}/src/index.ts",
       "outFiles": [
         "${workspaceFolder}/**/*.js"
-      ]
+      ],
+      "console": "integratedTerminal"
     }
   ]
 }
